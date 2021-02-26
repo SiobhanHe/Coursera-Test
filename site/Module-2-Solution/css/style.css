@@ -2,6 +2,8 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
+    margin: 3px;
+    padding: 0;
 }
 
 h1 {
@@ -12,19 +14,16 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
-    text-align: top right;
+    font-size: 20px;
+    text-align:right;
+    background-color: maroon; 
+    color: white
+    
 }
 
 p {
     font-size: 18px;
     width: 90%;
-}
-
-.container {
-    background-color: lightgrey;
-    border: 1px solid black;
-    height: 100px;
 }
 
 .row {
@@ -37,6 +36,10 @@ p {
             @media (min-width: 992px) {
                 .col-lg-1, .col-lg-2, .col-lg-3 {
                     float: left;
+                    width:30%;
+                    height: 250px; 
+                    border: black 1px;
+                    background-color: lightgray;
                 }
             }
 
@@ -44,7 +47,11 @@ p {
 
             @media (min-width: 768px) and (max-width: 991px) {
                 .col-md-1, .col-md-2, .col-md-3 {
-                    float: left 
+                    float: left; 
+                    width: 30%;
+                    height: 200px;
+                    border:black 1px;
+                    background-color: lightgray;
                 }
             }  
 
@@ -52,7 +59,11 @@ p {
 
             @media (max-width: 767px) {
                 .col-sm-1, .col-sm-2, .col-sm-3 {
-                    float: left
+                    float: left;
+                    width:30%;
+                    height: 150px;
+                    border:black 1px;
+                    background-color: lightgray;
                 }
             }
 
