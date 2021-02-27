@@ -76,7 +76,6 @@ p {
         border:black 1px solid;
         background-color: whitesmoke;
         overflow: auto;
-        margin: auto;
     }
 }
 
@@ -91,7 +90,6 @@ p {
         background-color:whitesmoke; 
         width: 50%;
         overflow: auto;
-        margin: ;
     }
 
     .col-md-1 {
