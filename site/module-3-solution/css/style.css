@@ -8,10 +8,31 @@ body {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
+h3 {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+/** column styling **/
+
+.row {
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.row > div {
+    background-color:lightsteelblue;
+}
 
 /** Header and Nav Bar **/
 
@@ -71,10 +92,6 @@ h2 {
 #nav-list a span {
     font-size: 16px;
 } 
-
-
-/** Header and Nav Bar Ended**/
-
 
 
 /*** HD desktop ***/
