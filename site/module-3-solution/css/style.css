@@ -61,8 +61,10 @@ h2 {
 
 #nav-list a {
     color: black;
-    /* background-color: bisque; */
     text-align: center;
+    margin: 0;
+    background-color: bisque;
+    border: 0;
     margin: 0;
 }
 
