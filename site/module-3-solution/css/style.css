@@ -17,7 +17,7 @@ h2 {
 
 #header-nav {
     background: turquoise;
-    padding: 10px;
+    padding: 0px;
     border-radius: 0;
     border: 0;
 }
@@ -33,7 +33,7 @@ h2 {
     color: black;
     margin-top: 0;
     margin-bottom: 0px;
-    line-height: .75;
+    line-height: 0.5;
     text-decoration: none; 
 }
 
@@ -55,7 +55,7 @@ h2 {
 }
 
 #nav-list {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
