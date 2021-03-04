@@ -1,0 +1,104 @@
+/* General style */
+
+body {
+    font-size: 16px;
+   /* font-family: ;*/
+    color: black ;
+    background-color: whitesmoke ;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/** Header and Nav Bar **/
+
+#header-nav {
+    background: turquoise;
+    padding: 10px;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+}
+
+.navbar-brand h1 {
+    font-size: 24px;
+   /* font-family: ; */
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .75;
+    text-decoration: none; 
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle:hover {
+    background-color: whitesmoke
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -35px;
+}
+
+#nav-list {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#nav-list a {
+    color: black;
+    /* background-color: bisque; */
+    text-align: center;
+    margin: 0;
+}
+
+#nav-list a span {
+    font-size: 16px;
+} 
+
+
+/** Header and Nav Bar Ended**/
+
+
+
+/*** HD desktop ***/
+@media (min-width:1201px) {
+    .navbar-brand h1 {
+        font-size: 30px;
+    }
+}
+
+/*** Desktop ***/
+@media (min-width:992px) and (max-width:1200px) {
+    .navbar-brand h1 {
+        font-size: 30px;
+    }
+}
+
+/*** Tablet ***/
+@media (min-width:768px) and (max-width:991px) {
+    .navbar-brand h1 {
+        font-size: 30px;
+    }
+}
+
+/*** Mobile ***/
+@media (max-width:767px) {
+    .navbar-brand {
+        padding-top: 24px;
+    }
+}
